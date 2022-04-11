@@ -3,7 +3,7 @@ import bg_image from '../images/main/main_bg.svg'
 
 const Main = () => {
     return (
-        <section className='MainScreen' style={{ backgroundImage:`url(${bg_image})`,backgroundRepeat:"no-repeat" }}>
+        <section className='main' style={{ backgroundImage:`url(${bg_image})`,backgroundRepeat:"no-repeat" }}>
 
         </section>
     );

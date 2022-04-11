@@ -1,13 +1,12 @@
 import React from 'react';
-import logo from '../images/sidebar/company_logo.svg'
-import logo_text from '../images/sidebar/doors_text.svg'
-import pos_pic from '../images/sidebar/pos.svg'
+import pos_pic from '../../images/sidebar/pos.svg'
+import CompanyLogo from './CompanyLogo';
+
 
 const Sidebar = () => {
     return (
         <section className='sidebar'>
-            <img className='sidebar__logo' src={logo} alt="logo" />
-            <img className='sidebar__text' src={logo_text} alt="logo" />
+            <CompanyLogo/>
             <ul className="menu">
                 <li className="menu__item"><span className='menu__text'>Коллекции</span></li>
                 <li className="menu__item"><span className='menu__text'>Где купить</span></li>
@@ -21,7 +20,7 @@ const Sidebar = () => {
                 </div>
                 <div className="position">
                     <img className='position__pic' src={pos_pic} alt="position_pic" />
-                    <span className='position__text'>Балашиха (учи язык)</span>
+                    <span className='position__text'>Балашиха (хочешь уехать? учи язык)</span>
                 </div>
             </div>
         </section>
