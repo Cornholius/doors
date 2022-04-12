@@ -16,7 +16,7 @@ const Sidebar = () => {
                 <li className="menu__item"><Link to='/home' className='menu__text'>Коллекции</Link></li>
                 <li className="menu__item"><Link to='/home' className='menu__text'>Где купить</Link></li>
                 <li className="menu__item"><Link to='/home' className='menu__text'>Гарантия</Link></li>
-                <li className="menu__item"><Link to='/home' className='menu__text'>О компании</Link></li>
+                <li className="menu__item"><Link to='/about' className='menu__text'>О компании</Link></li>
             </ul>
             <div className="sidebar__bottom">
                 <div className="date">
