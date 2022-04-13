@@ -10,6 +10,7 @@ const Sidebar = () => {
     return (
         <>
         <section className='sidebar'>
+            {/* <div className="sidebar__sticky"> */}
             <CompanyLogo/>
             <ul className="menu">
                 <li className="menu__item"><Link to='/' className='menu__text'>На главную</Link></li>
@@ -27,6 +28,7 @@ const Sidebar = () => {
                     <img className='position__pic' src={pos_pic} alt="position_pic" />
                     <span className='position__text'>Балашиха (хочешь уехать? учи язык)</span>
                 </div>
+            {/* </div> */}
             </div>
         </section>
         <div className="content">
