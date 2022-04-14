@@ -14,7 +14,7 @@ const Sidebar = () => {
             <CompanyLogo/>
             <ul className="menu">
                 <li className="menu__item"><Link to='/' className='menu__text'>На главную</Link></li>
-                <li className="menu__item"><Link to='/home' className='menu__text'>Коллекции</Link></li>
+                <li className="menu__item"><Link to='/collections' className='menu__text'>Коллекции</Link></li>
                 <li className="menu__item"><Link to='/home' className='menu__text'>Где купить</Link></li>
                 <li className="menu__item"><Link to='/home' className='menu__text'>Гарантия</Link></li>
                 <li className="menu__item"><Link to='/about' className='menu__text'>О компании</Link></li>

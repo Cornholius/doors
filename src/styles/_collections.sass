@@ -1,0 +1,33 @@
+.collections
+    background: $base-gradient
+    min-height: 100vh
+    display: flex
+    flex-direction: column
+    &:first-child
+        padding-top: 120px
+    &__item
+        margin: 30px
+        display: flex
+        justify-content: center
+        align-items: center
+    &__title
+        // margin: 0 5%
+        width: 30%
+        margin-right: 30px
+    &__text
+        color: $lemon
+        padding-bottom: 30px
+        text-align: right
+        font-size: 30px
+        font-family: 'Roboto', sans-serif
+        font-weight: 400
+    &__doors
+        width: 55%
+        display: flex
+        justify-content: space-around
+        height: 375px
+        &__pic
+            transition: all 0.5s ease-in-out
+            &:hover
+                transform: translateY(-15px)
+

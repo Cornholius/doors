@@ -17,18 +17,6 @@ const About = () => {
             </div>
             <div className="about__column2">
                 <img className="about__pic" src={door} alt="about_door_pic"/>
-                {/* <img className="about__pic" src={door} alt="about_door_pic"/>
-                <img className="about__pic" src={door} alt="about_door_pic"/>
-                <img className="about__pic" src={door} alt="about_door_pic"/>
-                <img className="about__pic" src={door} alt="about_door_pic"/>
-                <img className="about__pic" src={door} alt="about_door_pic"/>
-                <img className="about__pic" src={door} alt="about_door_pic"/>
-                <img className="about__pic" src={door} alt="about_door_pic"/>
-                <img className="about__pic" src={door} alt="about_door_pic"/>
-                <img className="about__pic" src={door} alt="about_door_pic"/>
-                <img className="about__pic" src={door} alt="about_door_pic"/>
-                <img className="about__pic" src={door} alt="about_door_pic"/> */}
-
             </div>
         </section>
     );
