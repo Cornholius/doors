@@ -4,9 +4,10 @@ import ekza from '../../images/collections/novella_logo_black.svg'
 
 
 const Collections = () => {
+
     return (
         <section className='collections'>
-            
+
             <div className="collections__item">
                 <div className="collections__title">
                     <div className="collections__text">Коллекция</div>
