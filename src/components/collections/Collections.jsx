@@ -1,64 +1,23 @@
-import React from 'react';
-import door from '../../images/about/door.png'
-import ekza from '../../images/collections/novella_logo_black.svg'
+import React, {useState} from 'react';
+
+import Collection from '../collections/Collection'
 
 
 const Collections = () => {
+    const [collections, setCollections] = useState([
+        {id:1, text:'Коллекция'},
+        {id:2, text:'Коллекция 2'},
+        {id:3, text:'Коллекция 3'},
+        {id:4, text:'Коллекция 4'},
+        {id:5, text:'Коллекция 5'},
+        
+    ])
 
     return (
         <section className='collections'>
-
-            <div className="collections__item">
-                <div className="collections__title">
-                    <div className="collections__text">Коллекция</div>
-                    <img className="collections__tiitle__pic" src={ekza} alt="about_door_pic"/>
-                </div>
-                <div className="collections__doors">
-                    <img className="collections__doors__pic" src={door} alt="about_door_pic"/>
-                    <img className="collections__doors__pic" src={door} alt="about_door_pic"/>
-                    <img className="collections__doors__pic" src={door} alt="about_door_pic"/>
-                    <img className="collections__doors__pic" src={door} alt="about_door_pic"/>
-                </div>
-            </div>
-
-            <div className="collections__item">
-                <div className="collections__title">
-                    <div className="collections__text">Коллекция</div>
-                    <img className="collections__tiitle__pic" src={ekza} alt="about_door_pic"/>
-                </div>
-                <div className="collections__doors">
-                    <img className="collections__doors__pic" src={door} alt="about_door_pic"/>
-                    <img className="collections__doors__pic" src={door} alt="about_door_pic"/>
-                    <img className="collections__doors__pic" src={door} alt="about_door_pic"/>
-                    <img className="collections__doors__pic" src={door} alt="about_door_pic"/>
-                </div>
-            </div>
-
-            <div className="collections__item">
-                <div className="collections__title">
-                    <div className="collections__text">Коллекция</div>
-                    <img className="collections__tiitle__pic" src={ekza} alt="about_door_pic"/>
-                </div>
-                <div className="collections__doors">
-                    <img className="collections__doors__pic" src={door} alt="about_door_pic"/>
-                    <img className="collections__doors__pic" src={door} alt="about_door_pic"/>
-                    <img className="collections__doors__pic" src={door} alt="about_door_pic"/>
-                    <img className="collections__doors__pic" src={door} alt="about_door_pic"/>
-                </div>
-            </div>
-
-            <div className="collections__item">
-                <div className="collections__title">
-                    <div className="collections__text">Коллекция</div>
-                    <img className="collections__tiitle__pic" src={ekza} alt="about_door_pic"/>
-                </div>
-                <div className="collections__doors">
-                    <img className="collections__doors__pic" src={door} alt="about_door_pic"/>
-                    <img className="collections__doors__pic" src={door} alt="about_door_pic"/>
-                    <img className="collections__doors__pic" src={door} alt="about_door_pic"/>
-                    <img className="collections__doors__pic" src={door} alt="about_door_pic"/>
-                </div>
-            </div>
+          {collections.map((collection )=>
+            <Collection collection={collection} key={collection.id}/>
+            )}
         </section>
     );
 };
