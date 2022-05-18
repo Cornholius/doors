@@ -1,0 +1,47 @@
+.main
+    height: 790px
+    margin: 0 80px
+    background-image: url(../images/main/main.png)
+
+.callMePlz
+    position: relative
+    left: calc(100% - (270px + 115px))
+    top: -70px
+    display: flex
+    flex-direction: column
+    width: 270px
+    height: 460px
+    background-color: #fff
+    box-shadow: 7px 4px 13px $oliveGreen
+    &__title
+        font-family: 'Ubuntu'
+        font-weight: 400
+        font-size: 18px
+        line-height: 17px
+        text-align: center
+        color: $oliveGreen
+        margin: 30px 38px 13px 38px
+    &__form
+        display: flex
+        flex-direction: column
+        align-items: center
+        input
+            &:nth-child(1n)
+                text-align: center
+                color: $oliveGreenLight
+                margin-top: 15px
+                width: 218px
+                height: 65px
+                border: 1px solid #5E5E18
+                border-radius: 11px
+    &__btn
+        font-family: 'Ubuntu'
+        font-weight: 400
+        font-size: 16px
+        line-height: 14px
+        color: #FFFFFA
+        margin-top: 15px
+        width: 218px
+        height: 75px
+        background: $oliveGreenDark
+        border-radius: 11px

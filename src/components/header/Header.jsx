@@ -4,6 +4,7 @@ import address from '../../images/header/address.svg';
 import worktime from '../../images/header/worktime.svg';
 import logo from '../../images/header/logo.svg';
 import Menu from './Menu';
+import Main from '../main/Main';
 
 const Header = () => {
 
@@ -35,6 +36,7 @@ const Header = () => {
         </section>
 
         <Menu/>
+        <Main/>
 
         </>
     );
